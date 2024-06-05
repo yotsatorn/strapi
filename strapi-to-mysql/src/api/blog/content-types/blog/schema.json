@@ -17,6 +17,9 @@
     "description": {
       "type": "text"
     },
+    "detail": {
+      "type": "blocks"
+    },
     "picture": {
       "allowedTypes": [
         "images",
@@ -26,9 +29,6 @@
       ],
       "type": "media",
       "multiple": true
-    },
-    "detail": {
-      "type": "blocks"
     }
   }
 }

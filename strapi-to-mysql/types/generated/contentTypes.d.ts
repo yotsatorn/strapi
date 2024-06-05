@@ -375,8 +375,8 @@ export interface ApiBlogBlog extends Schema.CollectionType {
   attributes: {
     title: Attribute.String;
     description: Attribute.Text;
-    picture: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
     detail: Attribute.Blocks;
+    picture: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
